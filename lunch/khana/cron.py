@@ -1,10 +1,11 @@
-from .models import Test, TempUser
+from .models import TempUser
+# from .models import Test
 import datetime
 from django.utils import timezone
 
 
-def my_scheduled_job():
-    Test.objects.create(name='test')
+# def my_scheduled_job():
+#     Test.objects.create(name='test')
 
 
 def expire_temp_user():

@@ -52,5 +52,5 @@ class TempUser(models.Model):
         return f'{self.username} - {self.created}'
 
 
-class Test(models.Model):
-    name = models.CharField(max_length=4)
+# class Test(models.Model):
+#     name = models.CharField(max_length=4)

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import FoodItem, Order, Date, Shop, TempUser, Test
+from .models import FoodItem, Order, Date, Shop, TempUser
 from django.contrib.auth.models import User, Group
 
 # Register your models here.
@@ -10,7 +10,7 @@ admin.site.register(Date)
 admin.site.register(Shop)
 admin.site.register(TempUser)
 
-admin.site.register(Test)
+# admin.site.register(Test)
 # my version of admin
 from django.contrib.admin import AdminSite
 
@@ -34,4 +34,4 @@ admin_site.register(Date)
 admin_site.register(Shop)
 admin_site.register(TempUser)
 
-admin_site.register(Test)
+# admin_site.register(Test)

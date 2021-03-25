@@ -90,8 +90,8 @@ DATABASES = {
 
 # cronjobs
 CRONJOBS = [
-    ('*/1 * * * *', 'khana.cron.my_scheduled_job'),
-    ('*/1 * * * *', 'khana.cron.expire_temp_user')
+    # ('*/1 * * * *', 'khana.cron.my_scheduled_job'),
+    ('*/5 * * * *', 'khana.cron.expire_temp_user')
 ]
 
 # Password validation
