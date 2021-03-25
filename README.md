@@ -1,6 +1,6 @@
 Django Lunch Ordering App!
 
-How to use:
+How to use the web app:
 
 1) Go to the website.
 2) Click register and enter your details.
