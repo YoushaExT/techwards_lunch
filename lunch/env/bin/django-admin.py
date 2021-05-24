@@ -1,4 +1,4 @@
-#!/Users/yousha/yousha_laptop/clones/django/lunch/env/bin/python
+#!/Users/yousha/yousha_laptop/new_projects/new_clones/techwards_lunch/lunch/env/bin/python
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
