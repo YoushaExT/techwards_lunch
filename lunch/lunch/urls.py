@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('khana/', include('khana.urls')),
     path('myadmin/', admin_site.urls),
+    path('khana_api/', include('khana_api.urls')),
 ]
